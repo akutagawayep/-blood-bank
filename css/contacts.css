@@ -73,4 +73,8 @@ a {
     align-items: center;
   }
 
+.social-media {
+  max-width:480px;
+}
+
 }
