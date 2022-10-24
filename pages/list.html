@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="shortcut icon" href="../img/logo.svg" type="image/x-icon" />
+    <title>Blood Bank</title>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar__wrap">
+          <div class="hamb">
+            <div class="hamb__field" id="hamb">
+              <span class="bar"></span> <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </div>
+          <a href="../index.html" class="logo" id="logo"
+            ><img src="../img/logo.svg" alt="Logo"
+          /></a>
+          <ul class="menu" id="menu">
+            <li><a href="https://reprobank.ru/">Другие проекты</a></li>
+            <li><a href="about-us.html">О нас</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="popup" id="popup"></div>
+    <div class="card-container" id="card-container">
+      <div class="card">
+        <h3>Алишер jQueerщик</h3>
+        <p>Возраст: 20 лет</p>
+        <p>Группа крови: A</p>
+        <a class="card_btn" onclick="recive(this)">Записаться</a>
+      </div>
+      <div class="card black">
+        <h3>Босит Негров</h3>
+        <p>Возраст: 69 лет</p>
+        <p>Группа крови: B</p>
+        <a class="card_btn" onclick="recive(this)">Записаться</a>
+      </div>
+      <div class="card">
+        <h3></h3>
+        <p>Возраст: ${account.age} лет</p>
+        <p>Группа крови: ${account.blood}</p>
+        <a class="card_btn" onclick="recive(this)">Записаться</a>
+      </div>
+    </div>
+
+    <!-- footer -->
+
+    <div class="footer">
+      <div class="links-container">
+        <div class="links">Home</div>
+        <div class="links">About</div>
+        <div class="links">Menu</div>
+        <div class="links">Info</div>
+        <div class="links">Contact</div>
+        <div class="links">Bookings</div>
+        <div class="links">Privacy Policy</div>
+
+        <div class="links">Style Guide</div>
+        <div class="links">Licenses</div>
+        <div class="links">Instructions</div>
+        <div class="links">Changelog</div>
+        <div class="links">Password</div>
+        <div class="links">404</div>
+      </div>
+      <div class="comments">© Blood bank 2022.</div>
+      <div class="comments">Built by я заебалась</div>
+      <div class="comments">Powered by s4i & akutagawa_yep</div>
+    </div>
+    <!-- подключение скриптов -->
+    <script src="../js/nav-bar.js"></script>
+    <script src="../js/list.js"></script>
+  </body>
+</html>
