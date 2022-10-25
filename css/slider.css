@@ -117,9 +117,21 @@ h1 {
 
 @media (max-width: 600px) {
   .slide {
-    width: 480px;
+    width: 390px;
     min-width:300px
     max-height: 400px;
     padding: 0 1em;
+  }
+  
+  .img img {
+    height: 300px;
+    width: 300px;
+  }
+
+  .text {
+    width: 200px;
+
+    padding-top: 230px;
+    font-size: 25px;
   }
 }
