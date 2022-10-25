@@ -117,7 +117,7 @@ h1 {
 
 @media (max-width: 600px) {
   .slide {
-    max-width: 490px;
+    width: 480px;
     min-width:300px
     max-height: 400px;
     padding: 0 1em;
